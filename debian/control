@@ -1,0 +1,12 @@
+Source: spi-ft232h-dkms
+Section: misc
+Priority: optional
+Maintainer: Teledatics Inc <admin@teledatics.com>
+Build-Depends: debhelper (>= 7), dkms
+Standards-Version: 3.8.1
+
+Package: spi-ft232h-dkms
+Architecture: all
+Provides: spi-ft232h-modules (= 1.0.1)
+Depends: dkms (>= 1.95), ${misc:Depends}
+Description: Teledatics spi-ft232h driver

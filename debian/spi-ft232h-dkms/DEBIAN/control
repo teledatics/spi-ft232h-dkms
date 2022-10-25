@@ -1,0 +1,10 @@
+Package: spi-ft232h-dkms
+Version: 1.0.1
+Architecture: all
+Maintainer: Teledatics Inc <admin@teledatics.com>
+Installed-Size: 73
+Depends: dkms (>= 2.1.0.0)
+Provides: spi-ft232h-modules (= 1.0.1)
+Section: misc
+Priority: optional
+Description: Teledatics spi-ft232h driver

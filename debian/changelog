@@ -1,0 +1,6 @@
+spi-ft232h-dkms (1.0.1) stable; urgency=low
+
+  * Automatically packaged by DKMS.
+
+ -- Teledatics Incorporated <admin@teledatics.com>  Thu, 22 Sep 2022 17:57:58 -0400
+

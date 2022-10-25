@@ -1,0 +1,6 @@
+./misc/spi-ft232h.conf
+./src/Kconfig
+./src/Makefile
+./src/README.md
+./src/ft232h-intf.h
+./src/spi-ft232h.c

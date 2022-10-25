@@ -1,0 +1,10 @@
+3d8cc0cb0829870d53edbf8ff35d27b9  lib/udev/rules.d/60-spi-ft232h-dkms.rules
+8a8c2439df099f1455cb4e80aedf7f79  usr/share/doc/spi-ft232h-dkms/README.Debian
+62808e90bdd901e205551acf71a8a067  usr/share/doc/spi-ft232h-dkms/changelog.gz
+4ed00e311d15aca2bcfa5ecd2ef6dbe3  usr/share/doc/spi-ft232h-dkms/copyright
+0ce2e94047c7fe9d3b63517cea130bec  usr/src/spi-ft232h-1.0.1/Kconfig
+c712c883420879231b7efa40df9fffc4  usr/src/spi-ft232h-1.0.1/Makefile
+76acbc7124d1631e8c6af8fa377f0e55  usr/src/spi-ft232h-1.0.1/README.md
+a5e0766774cc366d3654d81674acf42b  usr/src/spi-ft232h-1.0.1/dkms.conf
+de696a805aa785f59d64ae0fee3ccede  usr/src/spi-ft232h-1.0.1/ft232h-intf.h
+100cf84838c9b6d792927b43a2212236  usr/src/spi-ft232h-1.0.1/spi-ft232h.c

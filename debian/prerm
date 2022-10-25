@@ -1,0 +1,29 @@
+#!/bin/sh
+
+NAME=spi-ft232h
+VERSION=1.0.1
+
+set -e
+
+case "$1" in
+    remove|upgrade|deconfigure)
+      if [  "`dkms status -m $NAME`" ]; then
+         rm /etc/modprobe.d/blacklist-ftdi_sio.conf
+         dkms remove -m $NAME -v $VERSION --all
+      fi
+    ;;
+
+    failed-upgrade)
+    ;;
+
+    *)
+        echo "prerm called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0
+
+
